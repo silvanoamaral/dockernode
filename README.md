@@ -10,12 +10,12 @@ Ambiente de desenvolvimento NodeJS com Docker e Docker Compose
 ```bash
 
 # Criando maquina/imagem no docker
-Comando: `docker build -t silvano/dockernode .`
+Comando: docker build -t silvano/dockernode .
 
 # Rodando a aplicação
-Comando: `docker run -p 3000:3000 -d silvano/dockernode`
+Comando: docker run -p 3000:3000 -d silvano/dockernode
 
 # Para rodar a aplicação com o docker-compose
-Comando: `docker-compose up`
+Comando: docker-compose up
 
 ```
